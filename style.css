@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* HEADER */
+
+header {
+    background-image: url(image/fundo.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 250px;
+    box-shadow: -2px -4px 12px black;
+
+}
+
+header h1 {
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    font-size: 40px;
+    
+    padding: 30px;
+
+    text-shadow: 5px 6px 20px black;
+}
+
+/* NAV */
+
+.img {
+    background-color: yellow;
+    text-align: center;
+
+}
+
+/* MAIN */
+
+main h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    margin: 30px 0px;
+    padding: 20px;
+}
+
+main p {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px 30px 30px;
+    text-align: center;
+    line-height: 30px;
+}
+
+main .container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+    background-color: bisque;
+    padding: 50px;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+
+    background-color: white;
+    border-radius: 10px;
+
+    box-shadow: 2px 4px 12px rgba(0, 0, 0, 0.267);
+
+    /*border: 1px solid red;*/
+}
+
+.pokemon {
+    margin: 30px auto;
+
+
+    width: 75px;
+    height: 100px;
+
+    border: 1px solid blue;
+}
+
+button {
+    display: block;
+    margin: auto;
+
+    padding: 5px;
+}
